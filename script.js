@@ -36,6 +36,7 @@ const order = {
   
   const customerInfo = (order) => {
     // Adicione abaixo as informações necessárias.
+    Object.entries(order)
   
   }
   

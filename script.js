@@ -21,11 +21,11 @@ const result = parseInt(value1) + parseInt(value2);
 document.getElementById('result').innerHTML = `Resultado: ${result}`;
 document.getElementById('value1').value = '';
 document.getElementById('value2').value = '';
-    }
-    catch (erro) {
+}
+catch (erro) {
     document.getElementById('result').innerHTML =`Erro: ${erro.message}`;
+}
 
-    }
 }
 window.onload = () => {
     const button = document.getElementById('button');
